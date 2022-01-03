@@ -60,6 +60,9 @@
                         <suiteXmlFile>
                            testng_LeafGround.xml
                         </suiteXmlFile>
+                        <suiteXmlFile>
+                           testng_XYZBank.xml
+                        </suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
