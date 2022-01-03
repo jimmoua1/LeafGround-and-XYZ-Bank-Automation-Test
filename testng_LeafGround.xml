@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LeafGround Test Suite">
+    <listeners>
+        <listener class-name="Assignments._LeafGroundWebsite.listeners.Listener"/>
+        <listener class-name="Assignments._LeafGroundWebsite.listeners.AnnotationTransformer"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/IntelliJ/_Projects/GenSparkMavenUI">
+        <classes>
+            <class name="Assignments._LeafGroundWebsite.java.TestLeafPlayground">
+                <methods>
+                    <include name="testEditBox"/>
+                    <include name="testButton"/>
+                    <include name="testHyperLink"/>
+                    <include name="testImage"/>
+                    <include name="testDropDown"/>
+                    <include name="testRadioButton"/>
+                    <include name="testCheckBox"/>
+                    <include name="testTable"/>
+                    <include name="testAlert"/>
+                    <include name="testFrame"/>
+                    <include name="testWindow"/>
+                    <include name="testCalendar"/>
+                    <include name="testDraggable"/>
+                    <include name="testDroppable"/>
+                    <include name="testSelectable"/>
+                    <include name="testSortable"/>
+                    <include name="testAutoComplete"/>
+                    <include name="testDownloadFiles"/>
+                    <include name="testUploadFiles"/>
+                    <include name="testToolTip"/>
+                    <include name="testWaitToDisappear"/>
+                    <include name="testWaitToAppear"/>
+                    <include name="testWaitForTextChange"/>
+                    <include name="testWaitForAlert"/>
+                    <include name="testMouseHover"/>
+                    <include name="testAdvanceWebTable"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

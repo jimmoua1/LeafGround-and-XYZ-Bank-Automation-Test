@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Assignments.XYZBankDemo.listener.Listener"/>
+        <listener class-name="Assignments.XYZBankDemo.listener.AnnotationTransformer"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/IntelliJ/_Projects/GenSparkMavenUI">
+        <classes>
+            <class name="Assignments.XYZBankDemo.java.XYZ_TestCases">
+                <methods>
+                    <include name="verifyBankUrl"/>
+                    <include name="verifyHomeButton"/>
+                    <include name="verifyCustomerLogin"/>
+                    <include name="verifyBankManagerLogin"/>
+                    <include name="verifyAddingDeletingCustomer"/>
+                    <include name="bvaFirstName"/>
+                    <include name="bvaLastName"/>
+                    <include name="bvaPostCode"/>
+                    <include name="checkAlertPopUp"/>
+                    <include name="checkAllAccountsOnCustomerName"/>
+                    <include name="checkAllAccountsOnCustomerNameArrowKeys"/>
+                    <include name="checkAllAccountsOnCustomerNameCurrency"/>
+                    <include name="checkAllAccountsOnCustomerNameCurrencyArrowKeys"/>
+                    <include name="openNewAccount"/>
+                    <include name="verifyNewAccountAlert"/>
+                    <include name="checkSearchCustomer"/>
+                    <include name="clickSortFirstName"/>
+                    <include name="clickSortLastName"/>
+                    <include name="clickSortPostCode"/>
+                    <include name="deleteCustomer"/>
+                    <include name="customerLoginLogout"/>
+                    <include name="customerAccountChange"/>
+                    <include name="displayTransactionPage"/>
+                    <include name="displayTransactionCalendar"/>
+                    <include name="customerResetTransaction"/>
+                    <include name="customerDepositing"/>
+                    <include name="customerWithdrawn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
