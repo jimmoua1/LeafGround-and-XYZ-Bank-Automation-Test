@@ -6,5 +6,5 @@ This test is for testing two websites
 
 >https://www.way2automation.com/angularjs-protractor/banking/#/login
 
-Using automation testing, Docker with Selenium Grid and Jenkins.
+Using automation testing, Docker with Selenium Grid, and Jenkins.
 
