@@ -1,3 +1,0 @@
-put it in browser console area
-
-setTimeout(function(){debugger;}, 5000)

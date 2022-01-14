@@ -1,3 +1,0 @@
-Regression Testing --> if 1000 tests
-Smoke Testing      --> login tests[ critical functionality ] --> if 10 tests aren't pass, cant test the 1000
-Sanity Testing     --> same and similar as regression testing
